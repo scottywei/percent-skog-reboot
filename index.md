@@ -97,8 +97,8 @@ The Skog Reboot comes with a rotary encoder, which can bring interesting usage f
 **Cursor Locator:** Program the clockwise and counter-clockwise to Left and Right in layer 0, to Up and Down in layer 1, then program the Press to MO(1) which can momentarily turn layer 1 on. Then you got a cursor locator that can fast locate the cursor by rotating, move the cursor to left or right by rotating clockwise or counter-clockwise, move the cursor up or down by keep pressing while rotating. This could be very useful when you're coding or using spreadsheets.
 
 ### All Command Keys:
-| Command                                             | Function                                                         |
-  | ------------------------------------------------ | ------------------------------------------------------------ |
+  | Command | Function  |
+  | ------ | ------ |
   | <kbd>LShift</kbd>+<kbd>RShift</kbd>+<kbd>G</kbd> | Turn all RGB on                                              |
   | <kbd>LShift</kbd>+<kbd>RShift</kbd>+<kbd>H</kbd> | Turn all RGB off                                              |
   | <kbd>LShift</kbd>+<kbd>RShift</kbd>+<kbd>V</kbd> | Update the battery level in Windows 10's Bluetooth devices interface, this is not an accurate value  |
