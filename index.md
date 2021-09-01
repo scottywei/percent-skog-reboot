@@ -105,7 +105,7 @@ The Skog Reboot comes with a rotary encoder, which can bring interesting usage f
   | <kbd>LSfhit</kbd>+<kbd>RShift</kbd>+<kbd>R</kbd> | Performing a BLE mode factory reset |
   | <kbd>LShift</kbd>+<kbd>RShift</kbd>+<kbd>L</kbd> | Turn the keyboard into lock mode. |
 
-----
+
 ### Change Logs
 Date: 2021-08-2
 - RGB strip will turn on as capslock indicator and layer indictor, even the RGB strip is off.
