@@ -1,15 +1,14 @@
 # <center><font size="32">Skog Reboot PCB Guide</font> <br> <font size="5">Percent Studio x Basic I/O Instruments</font></center>
 
 ## Introduction
-Welcome to the Skog Reboot, this is an 87% customize keyboard designed by Percent Studio and powered by Basic I/O Instruments. This document is for the prototype version of the board and will be changed and updated along with the development progress.
-
+Welcome to the Skog Reboot, this is an 87% customize keyboard designed by Percent Studio and powered by Basic I/O Instruments. 
 ## Features
  - USB and BLE(Bluetooth Low Energy, version 4.2) duo-mode.
  - QMK firmware, enabled with VIA.
  - Per-key RGB backlight.
  - RGB strip light and RGB logo light.
  - VIA Programmable Encoder.
- - Use BL-5C/BL-5J battery, Hundreds hours of battery life.
+ - Use BL-5C battery, Hundreds hours of battery life.
  - Separated BLE module daughterboard, improved signal reception.
 
 ## Hardware
@@ -44,10 +43,11 @@ Optional module to enable BLE feature for this board, connect to the mainboard v
 Loaded with an EC11 rotary encoder, connect to the mainboard via a 5 pin SH cable. The function of the rotary encoder can be programmed in the VIA.
 
 ### Battery Module Daughterboard
-There 2 types of battery modules specifically designed for BL-5C or BL-5J 3.7v Li-ion battery, these batteries were designed for Nokia phones and still easy to get nowadays. The BL-5C and BL-5J is different in dimension and capacity. For a BL-5C, the typical capacity is 1150maAh, which means approximately 500 hours of standby battery life(All RGB lights OFF), and for a BL-5J the capacity is larger to 1320mAh. This module is connect to the mainboard via a 2 pin SH cable.
+There 2 types of battery modules specifically designed for BL-5C 3.7v Li-ion battery, these batteries were designed for Nokia phones and still easy to get nowadays. For a BL-5C, the typical capacity is 1150maAh, which means approximately 500 hours of standby battery life(All RGB lights OFF). This module is connect to the mainboard via a 2 pin SH cable.
 
 ## Firmware
-To be done.
+You can get a pre-built firmware from: <https://github.com/scottywei/percent-skog-reboot/releases>
+The source code of the firmware will upload to QMK as soon as some precondition PR is merged. Pre-built firmware will provide better power-saving performance.
 
 ## Usage
 ### USB Mode
@@ -99,7 +99,7 @@ The Skog Reboot comes with a rotary encoder, which can bring interesting usage f
 ### All Command Keys:
 
   | Command | Function  |
-  | ------ | ------ |
+  | ------------------------------ | ------ |
   | <kbd>LShift</kbd>+<kbd>RShift</kbd>+<kbd>G</kbd> | Turn all RGB on  |
   | <kbd>LShift</kbd>+<kbd>RShift</kbd>+<kbd>H</kbd> | Turn all RGB off  |
   | <kbd>LShift</kbd>+<kbd>RShift</kbd>+<kbd>V</kbd> | Update the battery level in Windows 10's Bluetooth devices interface, this is not an accurate value  |
